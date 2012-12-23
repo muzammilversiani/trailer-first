@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+
+table {
+  font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	border: 1px solid #666;
+	border-collapse: collapse;
+	text-align: center;
+}
+table tr td {
+	border: 1px solid #666;
+	border-collapse: collapse;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333;
+}
+table tr th {
+	border: 1px solid #666;
+	border-collapse: collapse;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+}
+.ui-btn-active {
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#fadb4f), to(#490));
+	background-image: -webkit-linear-gradient(#fadb4f, #CC3);
+	background-image: -moz-linear-gradient(#fadb4f, #CC3);
+	background-image: -ms-linear-gradient(#fadb4f, #CC3);
+	background-image: -o-linear-gradient(#fadb4f, #CC3);
+	background-image: linear-gradient(#fadb4f, #CC3);
+}
